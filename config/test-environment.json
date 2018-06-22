@@ -1,0 +1,4 @@
+{
+  "mongoDBLoc": "mongodb://localhost/vermis-test",
+  "comment": "This is just a comment and not used! Store prod/test/dev locations inside config files to switch based on the environment"
+}

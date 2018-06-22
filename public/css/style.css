@@ -1,0 +1,385 @@
+body {
+    background: #FCFCFC;
+    font-family: sans-serif;
+    width: 100vw;
+    max-width: 100%;
+    color: #7E8992;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dashboard,
+#index {}
+
+main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    min-height: calc(100vh - 50px);
+}
+
+h1 {
+    margin: 30px;
+}
+
+main a.login-link {
+    float: right;
+    margin-top: -75px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 20px;
+    width: 50vw;
+    max-width: 1014px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background: #F4F4F4;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.15);
+}
+
+form h3 {
+    margin-bottom: 10px;
+}
+
+form input {
+    margin-bottom: 5px;
+    width: 80%;
+    padding: 20px;
+    display: block;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+
+
+
+#dashboard form{
+    width: 45vw;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    padding: 20px;
+    background: #F4F4F4;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+
+#dashboard h3 {
+    margin-bottom: 10px;
+}
+
+#dashboard input {
+    margin-bottom: 5px;
+    width: 80%;
+    padding: 20px;
+    display: block;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+}
+
+#dashboard form input[type="submit"] {
+    margin: 0 auto;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    width: auto;
+    display: block;
+    background: #21252E;
+    min-width: 37px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#dashboard form input[type="submit"]:hover {
+    background: black;
+}
+
+#dashboard .message {
+    width: 100%;
+    text-align: center;
+    color: #007191;
+    opacity: 0;
+    transition: .3s;
+}
+
+
+
+
+
+
+/* ##########################################################
+##############################################
+############################### */
+
+#login form,
+#register form {
+    width: 25vw;
+    height: 35vh;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    padding: 20px;
+    background: #F4F4F4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#register form {
+    width: 25vw;
+    height: 40vh;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    padding: 20px;
+    background: #F4F4F4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#login form h3,
+#register form h3 {
+    margin-bottom: 10px;
+}
+
+#login form input,
+#register form input {
+    margin-bottom: 5px;
+    width: 80%;
+    padding: 20px;
+    display: block;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+}
+
+#login form input[type="submit"],
+#register form input[type="submit"] {
+    margin: 0 auto;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    width: auto;
+    display: block;
+    background: #21252E;
+    min-width: 37px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#login form input[type="submit"]:hover,
+#register form input[type="submit"]:hover {
+    background: black;
+}
+
+#login div {
+    text-align: center;
+    padding: 10px 0px 0px;
+}
+
+#login div a {
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #616b6b;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* Table displaying all books */
+
+.table-container {
+    width: 90vw;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow-x: scroll;
+    min-height: 60px;
+    background: white;
+    margin-top: 30px;
+    border: 1.5px solid #EBEBEB;
+    border-radius: 2px;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 500px;
+
+
+}
+
+table th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table td,
+table th {
+    text-align: left;
+    padding: 25px 8px 8px 8px;
+}
+
+table td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+#login form {
+    margin-bottom: 30px;
+}
+
+.remove-book {
+    color: red;
+    min-width: 60px;
+}
+
+.remove-book:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+footer h4,
+footer a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .table-container {
+        overflow-x: auto;
+    }
+    h1 {
+        margin: 30px;
+    }
+    #login form,
+    #register form {
+        width: 25vw;
+        height: 35vh;
+        border: 1px solid #F4F4F4;
+        border-radius: 10px;
+        padding: 20px;
+        background: #F4F4F4;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #register form {
+        width: 25vw;
+        height: 40vh;
+        border: 1px solid #F4F4F4;
+        border-radius: 10px;
+        padding: 20px;
+        background: #F4F4F4;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #login form h3,
+    #register form h3 {
+        margin-bottom: 10px;
+    }
+
+    #login form input,
+    #register form input {
+        margin-bottom: 5px;
+        width: 80%;
+        padding: 20px;
+        display: block;
+    }
+
+    #login form input[type="submit"],
+    #register form input[type="submit"] {
+        margin: 0 auto;
+        padding: 10px 40px;
+        color: white;
+        border: none;
+        width: auto;
+        display: block;
+        background: #21252E;
+        min-width: 37px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    #login form input[type="submit"]:hover,
+    #register form input[type="submit"]:hover {
+        background: black;
+    }
+    #login div {
+        text-align: center;
+        padding: 10px 0px 0px;
+    }
+    #login div a {
+        padding: 10px 0px;
+        text-decoration: none;
+        color: #616b6b;
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

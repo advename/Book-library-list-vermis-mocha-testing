@@ -1,0 +1,30 @@
+{
+  "name": "vermis-book-library",
+  "version": "1.0.0",
+  "description": "Library gathering my knowledge",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "helmet": "^3.12.1",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "SET NODE_ENV=dev-environment && node server.js"
+  },
+  "keywords": [
+    "library",
+    "vermis"
+  ],
+  "author": "lars",
+  "license": "ISC"
+}
